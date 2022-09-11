@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head th:replace="fragments/_header :: headSection(pageTitle='Step 1')"></head>
+
+<body>
+
+<div th:insert="fragments/_header :: pageHeader"></div>
+
+<h1><b>Homemade Pizza Dough Ingredients</b></h1>
+<h3><b>Yeast:</b> <p>I use Platinum Yeast from Red Star. I have the best results when I use this instant yeast. The Platinum yeast is fantastic because its careful formula strengthens your dough and makes making working with yeast simple. You only need 1 standard packet of yeast (2 and 1/4 teaspoons) to get the job done.</p>
+    <b> Water:</b> <p>I tested this pizza dough recipe with different amounts of water. 1 and 1/3 cups is the perfect amount. Use warm water to cut down on rise time, about 100-110°F. Anything over 130ºF kills the yeast.</p>
+ <b> Flour:</b> <p>Use unbleached all-purpose white flour in this recipe. Bleaching the flour strips away some of the protein, which will affect how much water the flour absorbs. You can substitute bread flour for a chewier pizza crust. If you love whole grain bread, try this whole wheat pizza dough instead.</p>
+  <b>Oil:</b> <p>A couple Tablespoons of extra virgin olive oil adds wonderful flavor to the dough. Don’t forget to brush the dough with olive oil before adding the toppings, which prevents the crust from tasting soggy.</p>
+  <b>Salt: </b><p>Salt adds necessary flavor.</p>
+ <b> Sugar:</b> <p>1 Tablespoon of sugar increases the yeast’s activity and tenderizes the dough, especially when paired with a little olive oil.</p>
+ <b> Cornmeal:</b><p>Cornmeal isn’t in the dough, but it’s used to dust the pizza pan. Cornmeal gives the pizza crust a little extra flavor and crisp. Most delivery pizzas you enjoy have cornmeal on the bottom crust!</p>
+</h3>
+<p><h3>You could also add 1 teaspoon each garlic powder and Italian seasoning blend to the dough when you add the flour. </h3></p>
+<a th:href="@{/}"><img th:src="@{/img/dough.png}"></a>
+<p>Courtesy reference: <a href="https://www.seriouseats.com/basic-pizza-dough-for-high-temperature-outdoor-pizza-ovens-5211302">link</a> </p>
+
+</body>
+
+<div th:replace="fragments/_footer :: pageFooter"></div>
+</html>

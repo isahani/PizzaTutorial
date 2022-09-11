@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/_header :: headSection(pageTitle='Step 3')"></head>
+<body>
+<div th:insert="fragments/_header :: pageHeader"></div>
+<h1>TOP YOUR PIZZA</h1>
+<p><h3>Spread pizza sauce on the dough and Top your pizza with your choice of topping and lot of mozarella cheese.</h3></p>
+<h1>Bake:</h1>
+<p><h3>Bake pizza in the 475°F oven, one at a time, until the crust is browned and the cheese is golden, about 10 to 15 minutes. If you want, toward the end of the cooking time you can sprinkle on a little more cheese.</h3></p>
+<a th:href="@{/}"><img th:src="@{/img/pizza.png}"></a>
+</body>
+<div th:replace="fragments/_footer :: pageFooter"></div>
+</html>

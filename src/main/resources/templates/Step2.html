@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/_header :: headSection(pageTitle='Step 2')"></head>
+<body>
+<div th:insert="fragments/_header :: pageHeader"></div>
+<h1><b>Easy Homemade Pizza Sauce Recipe:-</b></h1><br>
+<h2>INGREDIENTS
+</h2>
+<p><h3>6 oz tomato paste (1 -6 oz can)
+  ▢15 oz tomato sauce (1 - 15 oz can)
+  ▢1-2 TBS oregano to taste
+  ▢2 TBS Italian seasoning
+  ▢½ tsp garlic powder
+  ▢½ tsp onion powder
+  ▢½ TBS garlic salt
+  ▢¼ tsp freshly ground black pepper
+  ▢1 tsp sugar* coconut sugar for paleo or omit</h3></p>
+<br>
+<h2>INSTRUCTIONS</h2>
+<p><h3>Mix tomato paste and sauce together in a medium size bowl until well combined (all the lumps of paste are incorporated into the sauce).
+  Add the rest of the ingredients (oregano, Italian seasoning, garlic powder, onion powder, garlic salt, pepper and sugar) and mix well!
+  Use in your favorite pizza recipe!</h3></p>
+<a th:href="@{/}"><img th:src="@{/img/pizzaSauce.png}"></a>
+<p>Courtesy reference: <a href="https://joyfoodsunshine.com/easy-homemade-pizza-sauce-recipe/">Link</a> </p>
+</body>
+<div th:replace="fragments/_footer :: pageFooter"></div>
+</html>
